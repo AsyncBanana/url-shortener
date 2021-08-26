@@ -1,0 +1,13 @@
+name = "url-shortener"
+type = "javascript"
+account_id = 'ACCOUNT_ID_HERE'
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+site = {bucket = "./public",entry-point = "./"}
+[build]
+command="npm i && npm run build"
+[build.upload]
+format = "service-worker"

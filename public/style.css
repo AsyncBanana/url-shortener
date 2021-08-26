@@ -1,0 +1,9 @@
+* {
+	font: system-ui, sans-serif;
+}
+.m-auto {
+	margin: auto;
+}
+w-3\/5 {
+	width: 60%;
+}
